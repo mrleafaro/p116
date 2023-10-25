@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Informações do meu Amigo</title>
+</head>
+
+<body>
+    <h1>Relação: Amigo</h1>
+    <h2>Nome: {{nome_amigo}}</h2>
+    <h2>Idade: {{idade_amigo}}</h2>
+
+    <!-- Escreva o link correto para a fonte da imagem no lugar de #. As imagens estão armazenadas na pasta static. Se você não gostar dessas imagens, você pode usar as suas próprias imagens -->
+    <img src="{{ url_for('static', filename='robin.jpg') }}" alt="robin" width="200" />
+</body>
+
+</html>
